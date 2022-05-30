@@ -5,11 +5,11 @@ programa
 	{
 	// 1. Faça um sistema que leia a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressa apenas em dias.
 		inteiro anos , meses , dias, totaldias
-		escreva ("Bem vindo! Esse programa irá calcular quantos dias de vida você tem, aproximadamente...\n")
+		escreva ("Olá! Bem vindo! Esse programa irá calcular quantos dias de vida você tem, aproximadamente...\n")
 		
 		escreva("Agora responda: Quantos anos você tem? ")
 		leia (anos)
-		escreva ("\nOk, já sabemos os anos, mas e agora, quantos meses? ")
+		escreva ("\n\nOk, já sabemos os anos, mas e agora, quantos meses? ")
 		leia (meses)
 		escreva("\nE quantos dias? ")
 		leia(dias)
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 393; 
+ * @POSICAO-CURSOR = 390; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
