@@ -18,11 +18,11 @@ programa
 			escreva("\nTodos os grupos podem continuar suas atividades normalmente.\n")
 			
 		}
-		senao se (indice_poluicao <= 0.3 e indice_poluicao < 0.4)
+		senao se (indice_poluicao >= 0.3 e indice_poluicao < 0.4)
 		{
 			escreva("\nGrupo 1: SUSPENDA ATIVIDADES.\n")
 		}
-		senao se (indice_poluicao <= 0.4 e indice_poluicao < 0.5)
+		senao se (indice_poluicao >= 0.4 e indice_poluicao < 0.5)
 		{
 			escreva("\nGrupo 1 e Grupo 2: SUSPENDAM ATIVIDADES.\n")
 		}
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 894; 
+ * @POSICAO-CURSOR = 1181; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
