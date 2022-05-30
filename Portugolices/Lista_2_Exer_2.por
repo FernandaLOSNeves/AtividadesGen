@@ -24,7 +24,7 @@ programa
 		{
 			E = N - 50
 			S = 50*10 + E*20
-			escreva("\nVocê receberá R$" + S +"0, " +"\n\nR$" + E*20 + "0 desse ganho é referente à horas extras\n")
+			escreva("\nVocê receberá R$" + S +"0, " +"\n\nR$" + E*20 + "0 desse ganho é referente à horas extras.\n")
 		}
 		
 	}
@@ -34,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 831; 
+ * @POSICAO-CURSOR = 988; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
