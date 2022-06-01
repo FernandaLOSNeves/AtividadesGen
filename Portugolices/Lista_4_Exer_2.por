@@ -9,7 +9,8 @@ apresente também quantas foram as ocorrências da maior pontuação.
 	funcao inicio()
 	{
 		escreva("Este programa contabiliza os valores de lançamento de um dado, o maior valor e seu número de ocorrências.\n\n")
-		inteiro lancamentos[10], i, soma=0, media=0, contador=0, maiorValor=0
+		inteiro lancamentos[10], i, soma=0, contador=0, maiorValor=0
+		real media=0
 		para (i=0; i<=9; i++)
 		{
 			escreva("Digite o valor do lançamento " + (i+1) + ": ")
@@ -19,6 +20,15 @@ apresente também quantas foram as ocorrências da maior pontuação.
 				escreva("Digite o valor do lançamento" + (i+1) + ": ")
 				leia(lancamentos[i])
 			}
+			se (lancamentos[i] > maiorValor)
+				{	
+					maiorValor = lancamentos[i]
+					contador = 0
+				}
+				se (lancamentos[i]== maiorValor)
+				{
+					contador = contador + 1
+				}
 			
 			
 		}
@@ -27,12 +37,6 @@ apresente também quantas foram as ocorrências da maior pontuação.
 			{
 				escreva(lancamentos[i], " | ")
 				soma = soma + lancamentos[i]
-				se (lancamentos[i] >= maiorValor)
-				{
-					maiorValor = lancamentos[i]
-					contador = contador + 1
-				}
-				
 			}
 			media = soma/10
 			escreva("\n\nA média é igual a: "+ media +"\n")
@@ -44,7 +48,7 @@ apresente também quantas foram as ocorrências da maior pontuação.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 968; 
+ * @POSICAO-CURSOR = 1126; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
